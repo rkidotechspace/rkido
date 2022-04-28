@@ -41,7 +41,9 @@ body {
   font-family: "Spline Sans", sans-serif;
   line-height: 1.5;
   min-height: 100vh;
-  background-color: var(--c-ash);
+  /* background-color: var(--c-ash); */
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
 .cards {
@@ -149,51 +151,52 @@ dd {
   background-color: var(--c-white);
   color: var(--c-del-rio);
 }
-  strong {
-    font-weight: 600;
-    color: var(--c-coffee);
-  }
 
-  .inner {
-    padding: 20px;
-    padding-top: 40px;
-    background-color: var(--c-fair-pink);
-    border-radius: 12px;
-    position: relative;
-    overflow: hidden;
-  }
+strong {
+  font-weight: 600;
+  color: var(--c-coffee);
+}
 
-  .pricing {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: var(--c-apricot);
-    border-radius: 99em 0 0 99em;
-    display: flex;
-    align-items: center;
-    padding: .625em .75em;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--c-coffee);
-    /* small {
+.inner {
+  padding: 20px;
+  padding-top: 40px;
+  background-color: var(--c-fair-pink);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--c-apricot);
+  border-radius: 99em 0 0 99em;
+  display: flex;
+  align-items: center;
+  padding: .625em .75em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--c-coffee);
+  /* small {
 			color: var(--c-del-rio);
 			font-size: .75em;
 			margin-left: .25em;
 		} */
 
 
-  }
+}
 
-  .title {
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: var(--c-coffee);
-    /* & + * {
+.title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--c-coffee);
+  /* & + * {
 			margin-top: .75rem;
 		} */
-  }
+}
 
-  /* .info {
+/* .info {
 		& + * {
 			margin-top: 1rem;
 		} */
@@ -234,7 +237,7 @@ dd {
   } */
 
 
-/* button {
+  /* button {
   font: inherit;
   background-color: var(--c-indigo);
   border-radius: 6px;
@@ -249,7 +252,7 @@ dd {
   &:focus {
     background-color: var(--c-governor);
   } */
-} 
+}
 
 
 
