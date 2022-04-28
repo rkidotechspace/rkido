@@ -2,6 +2,16 @@
 <html>
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Ads: 10876066170 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10876066170"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10876066170');
+  </script>
+
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,6 +44,23 @@
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
 
+  <!-- Event snippet for Purchase_lp1 conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-10876066170/E-7RCNqnx7gDEPqyjsIo',
+        'transaction_id': '',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
 
 </head>
 
@@ -74,7 +101,7 @@
             <div class="cards">
               <article class="information [ card ]">
                 <h2 class="title ">Rkido Kids 3D Interactive Book</h2>
-                <video autoplay muted controls loop >
+                <video autoplay muted controls loop>
                   <source src="images/movie_0031.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
@@ -85,7 +112,7 @@
                   with top-notch animations and sounds. Book includes 3D wildlife adventures, universe exploration,
                   numbers and fruits, all in 3D with small fun facts.</p>
                 <div class="">
-                  <a href="https://www.amazon.in/dp/B09S6LKVR9" class="call_to-btn btn_white-border">
+                  <a onclick="gtag_report_conversion('https://www.amazon.in/dp/B09S6LKVR9');" href="https://www.amazon.in/dp/B09S6LKVR9" class="call_to-btn btn_white-border">
                     BUY NOW | ₹ 399.00
                   </a>
                 </div>
@@ -106,7 +133,7 @@
                   greater engagement and gives the children the feeling of freedom and control over the learning process
                   which helps in increasing the interest towards learning at the early age itself.</p>
                 <div class="">
-                  <a href="https://www.amazon.in/dp/B09S6LKVR9" class="call_to-btn btn_white-border">
+                  <a onclick="gtag_report_conversion('https://www.amazon.in/dp/B09S6LKVR9');" href="https://www.amazon.in/dp/B09S6LKVR9" class="call_to-btn btn_white-border">
                     BUY NOW | ₹ 399.00
                   </a>
                 </div>
@@ -114,9 +141,10 @@
               <article class="information [ card ]">
 
                 <img src="images/rkido_cow1.png" alt="">
-                <p style="    text-align: initial;" class="info">What you get:<br> The book includes 13 Wild Animals, 8 Domestic Animals, Learning Numbers
+                <p style="    text-align: initial;" class="info">What you get:<br> The book includes 13 Wild Animals, 8
+                  Domestic Animals, Learning Numbers
                   from 1 to 10 with virtual buttons in the book, 8 Fruits, Solar System, and our planet Earth popup.
-                  <br><br>  
+                  <br><br>
                   What it brings home:<br>
                   ✅ A real-life experience of animals in their habitat, distinctive sounds they make, and their unique
                   actions.<br>
@@ -125,7 +153,7 @@
                   ✅ Explore the universe with a 3D virtual tour to the space
                 </p>
                 <div class="">
-                  <a href="https://www.amazon.in/dp/B09S6LKVR9" class="call_to-btn btn_white-border">
+                  <a onclick="gtag_report_conversion('https://www.amazon.in/dp/B09S6LKVR9');" href="https://www.amazon.in/dp/B09S6LKVR9" class="call_to-btn btn_white-border">
                     BUY NOW | ₹ 399.00
                   </a>
                 </div>
